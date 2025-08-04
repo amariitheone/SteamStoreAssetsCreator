@@ -1,0 +1,276 @@
+[gd_scene load_steps=10 format=3 uid="uid://cy2r6hh7rq7os"]
+
+[ext_resource type="Script" uid="uid://co5whbavyic2t" path="res://store_asset_generator.gd" id="1_0lp7b"]
+[ext_resource type="Texture2D" uid="uid://c3mn8ei3qbl44" path="res://icon.svg" id="2_akhti"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_t1h80"]
+font_size = 100
+
+[sub_resource type="LabelSettings" id="LabelSettings_akhti"]
+font_size = 55
+
+[sub_resource type="LabelSettings" id="LabelSettings_oqbrn"]
+font_size = 200
+
+[sub_resource type="LabelSettings" id="LabelSettings_oq0q6"]
+font_size = 135
+
+[sub_resource type="LabelSettings" id="LabelSettings_s0xws"]
+font_size = 100
+
+[sub_resource type="LabelSettings" id="LabelSettings_35n8e"]
+font_size = 105
+
+[sub_resource type="LabelSettings" id="LabelSettings_tx3n8"]
+font_size = 230
+
+[node name="StoreAssetGenerator" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0lp7b")
+
+[node name="Screens" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="header_capsule" type="Control" parent="Screens"]
+anchors_preset = 0
+offset_right = 920.0
+offset_bottom = 430.0
+
+[node name="ColorRect" type="ColorRect" parent="Screens/header_capsule"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Icon" type="Sprite2D" parent="Screens/header_capsule"]
+position = Vector2(181, 202)
+scale = Vector2(2.36719, 2.25781)
+texture = ExtResource("2_akhti")
+
+[node name="Label" type="Label" parent="Screens/header_capsule"]
+layout_mode = 0
+offset_left = 351.0
+offset_top = 109.0
+offset_right = 1187.0
+offset_bottom = 330.0
+text = "Game Title"
+label_settings = SubResource("LabelSettings_t1h80")
+
+[node name="small_capsule" type="Control" parent="Screens"]
+visible = false
+anchors_preset = 0
+offset_right = 462.0
+offset_bottom = 174.0
+
+[node name="ColorRect" type="ColorRect" parent="Screens/small_capsule"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Icon" type="Sprite2D" parent="Screens/small_capsule"]
+position = Vector2(85, 86)
+scale = Vector2(1.04102, 0.994141)
+texture = ExtResource("2_akhti")
+
+[node name="Label" type="Label" parent="Screens/small_capsule"]
+offset_left = 165.0
+offset_top = 44.0
+offset_right = 459.0
+offset_bottom = 138.0
+text = "Game Title"
+label_settings = SubResource("LabelSettings_akhti")
+
+[node name="main_capsule" type="Control" parent="Screens"]
+visible = false
+anchors_preset = 0
+offset_right = 1232.0
+offset_bottom = 706.0
+
+[node name="ColorRect" type="ColorRect" parent="Screens/main_capsule"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Icon" type="Sprite2D" parent="Screens/main_capsule"]
+position = Vector2(586, 220)
+scale = Vector2(2.54932, 2.43453)
+texture = ExtResource("2_akhti")
+
+[node name="Label" type="Label" parent="Screens/main_capsule"]
+offset_left = 64.0
+offset_top = 359.0
+offset_right = 1103.0
+offset_bottom = 632.0
+text = "Game Title"
+label_settings = SubResource("LabelSettings_oqbrn")
+
+[node name="vertical_capsule" type="Control" parent="Screens"]
+visible = false
+anchors_preset = 0
+offset_right = 748.0
+offset_bottom = 896.0
+
+[node name="ColorRect" type="ColorRect" parent="Screens/vertical_capsule"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Icon" type="Sprite2D" parent="Screens/vertical_capsule"]
+position = Vector2(388.422, 313.045)
+scale = Vector2(4.41528, 4.21647)
+texture = ExtResource("2_akhti")
+
+[node name="Label" type="Label" parent="Screens/vertical_capsule"]
+offset_left = 24.0
+offset_top = 642.0
+offset_right = 725.0
+offset_bottom = 915.0
+text = "Game Title"
+label_settings = SubResource("LabelSettings_oq0q6")
+
+[node name="library_capsule" type="Control" parent="Screens"]
+visible = false
+anchors_preset = 0
+offset_right = 600.0
+offset_bottom = 900.0
+
+[node name="ColorRect" type="ColorRect" parent="Screens/library_capsule"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Icon" type="Sprite2D" parent="Screens/library_capsule"]
+position = Vector2(286, 393)
+scale = Vector2(3.17639, 3.03336)
+texture = ExtResource("2_akhti")
+
+[node name="Label" type="Label" parent="Screens/library_capsule"]
+offset_left = 42.0
+offset_top = 686.0
+offset_right = 743.0
+offset_bottom = 959.0
+text = "Game Title"
+label_settings = SubResource("LabelSettings_s0xws")
+
+[node name="library_header" type="Control" parent="Screens"]
+visible = false
+anchors_preset = 0
+offset_right = 920.0
+offset_bottom = 430.0
+
+[node name="ColorRect" type="ColorRect" parent="Screens/library_header"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Icon" type="Sprite2D" parent="Screens/library_header"]
+position = Vector2(173.422, 187.484)
+scale = Vector2(2.18091, 2.08271)
+texture = ExtResource("2_akhti")
+
+[node name="Label" type="Label" parent="Screens/library_header"]
+offset_left = 338.0
+offset_top = 120.0
+offset_right = 1377.0
+offset_bottom = 393.0
+text = "Game Title"
+label_settings = SubResource("LabelSettings_35n8e")
+
+[node name="library_hero" type="Control" parent="Screens"]
+visible = false
+anchors_preset = 0
+offset_right = 3840.0
+offset_bottom = 1240.0
+
+[node name="ColorRect" type="ColorRect" parent="Screens/library_hero"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Icon" type="Sprite2D" parent="Screens/library_hero"]
+position = Vector2(729, 570)
+scale = Vector2(8.34497, 7.96921)
+texture = ExtResource("2_akhti")
+
+[node name="library_logo" type="Control" parent="Screens"]
+visible = false
+anchors_preset = 0
+offset_right = 1280.0
+offset_bottom = 720.0
+
+[node name="Label" type="Label" parent="Screens/library_logo"]
+offset_left = 42.0
+offset_top = 178.0
+offset_right = 1236.0
+offset_bottom = 492.0
+text = "Game Title"
+label_settings = SubResource("LabelSettings_tx3n8")
+
+[node name="community_icon" type="Control" parent="Screens"]
+visible = false
+anchors_preset = 0
+offset_right = 184.0
+offset_bottom = 184.0
+
+[node name="Icon" type="Sprite2D" parent="Screens/community_icon"]
+position = Vector2(91, 90)
+scale = Vector2(1.22461, 1.16803)
+texture = ExtResource("2_akhti")
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SubViewport" type="SubViewport" parent="SubViewportContainer"]
+transparent_bg = true
+
+[node name="HowToUse" type="Label" parent="."]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -84.0
+offset_right = 657.0
+offset_bottom = -9.0
+text = "How to use:
+Set up each Control node under Screens to display whatever you want for that asset
+Run Scene"
